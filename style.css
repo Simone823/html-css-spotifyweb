@@ -153,3 +153,36 @@ footer{
     padding: 10px;
 
 }
+
+.brano{
+    border: 1px dashed orange;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 245px;
+}
+
+.brano img{
+    width: 45px;
+    height: 45px;
+    display: block;
+}
+
+.brano .nome_brano h2{
+    font-size: 14px;
+}
+
+.brano .nome_brano p {
+    font-size: 14px;
+    color: #aaa;
+}
+
+.brano .nome_brano{
+    margin-right: 15px;
+}
+
+.brano .icon_like i{
+    color: #aaa;
+    margin-right: 10px;
+}
+
