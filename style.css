@@ -69,11 +69,15 @@ aside{
 }
 
 .menu_playlist_aside li{
-    margin-bottom: 25px;
     display: flex;
     flex-direction: row;
     align-items: center;
     color: #aaa;
+    margin-bottom: 25px;
+}
+
+.menu_playlist_aside li:last-child{
+    margin-bottom: 110px;
 }
 
 .icon_playlist i{
