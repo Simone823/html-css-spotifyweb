@@ -151,6 +151,9 @@ footer{
     width: 100%;
     height: 88px;
     padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
 }
 
@@ -184,5 +187,49 @@ footer{
 .brano .icon_like i{
     color: #aaa;
     margin-right: 10px;
+}
+
+.riproduzione{
+    border: 1px dashed orange;
+    width: 597px;
+}
+
+.riproduzione .icon_riproduzione{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.riproduzione .icon_riproduzione i{
+    font-size: 20px;
+}
+
+.icon_riproduzione .far.fa-play-circle{
+    font-size: 30px;
+}
+
+.advanced{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.advanced .time{
+    font-size: 12px;
+}
+
+.advanced .time_line{
+    width: 430px;
+    height: 5px;
+    background-color: #aaa;
+    border-radius: 5px;
+}
+
+.volume{
+    border: 1px dashed orange;
+    width: 230px;
 }
 
