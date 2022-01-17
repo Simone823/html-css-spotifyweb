@@ -80,6 +80,36 @@ aside{
     padding-right: 8px;
 }
 
+.menu_profilo_aside .download_app{
+    color: #aaa;
+    margin-bottom: 10px;
+}
+
+.menu_profilo_aside .download_app i{
+    color: #aaa;
+    padding-right: 12px;
+}
+
+.menu_profilo_aside hr{
+    border: 1px solid #aaa;
+    margin-bottom: 15px;
+    
+}
+
+.menu_profilo_aside .profilo img{
+    width: 30px;
+    height: 30px;
+    background-color: #aaa;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.menu_profilo_aside .profilo{
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 18px;
+}
 
 /* Contenuto Parte destra */
 main{
