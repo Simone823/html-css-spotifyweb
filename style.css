@@ -44,11 +44,42 @@ aside{
     color: #aaa;
 }
 
+.menu_aside li:last-child{
+    margin-bottom: 35px;
+}
+
 .menu_aside li i{
     font-size: 22px;
     color: #aaa;
     padding-right: 8px;
 }
+
+.menu_playlist_aside{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu_playlist_aside h1{
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.menu_playlist_aside li{
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #aaa;
+}
+
+.icon_playlist i{
+    font-size: 45px;
+    color: #aaa;
+    padding-right: 8px;
+}
+
 
 /* Contenuto Parte destra */
 main{
