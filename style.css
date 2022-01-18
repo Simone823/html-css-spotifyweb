@@ -28,6 +28,11 @@
     cursor: pointer;
 }
 
+.upgrade button:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
 .brano .nome_brano p:hover{
     color: white;
     text-decoration: underline;
