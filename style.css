@@ -159,6 +159,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 30px;
 
 }
 
@@ -166,8 +167,8 @@ footer{
     border: 1px dashed orange;
     display: flex;
     align-items: center;
-    gap: 20px;
-    width: 245px;
+    gap: 15px;
+    /* width: 245px; */
     flex-shrink: 0;
 }
 
@@ -187,7 +188,7 @@ footer{
 }
 
 .brano .nome_brano{
-    margin-right: 15px;
+    margin-right: 8px;
 }
 
 .brano .icon_like i{
@@ -220,7 +221,8 @@ footer{
 .advanced{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 20px;
 }
 
 .advanced .time{
@@ -228,14 +230,31 @@ footer{
 }
 
 .advanced .time_line{
-    width: 430px;
+    max-width: 430px;
     height: 5px;
     background-color: #aaa;
     border-radius: 5px;
+    flex-grow: 1;
 }
 
 .volume{
     border: 1px dashed orange;
     width: 230px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.volume ul{
+    list-style: none;
+    display: contents;
+}
+
+.volume .volume_bar{
+    height: 5px;
+    width: 120px;
+    background-color: #aaa;
+    border-radius: 5px;
 }
 
