@@ -319,7 +319,7 @@ footer{
 .time_line .progressing{
     width: 16%;
     height: 5px;
-    background-color: lime;
+    background-color: #c1c1c1;
     border-radius: 5px;
     position: absolute;
     top: 0;
@@ -345,7 +345,8 @@ footer{
 /* Hover time_line e progressing */
 .time_line:hover .progressing{
     width: 100%;
-    transition: linear 15s;
+    transition: width linear 15s;
+    background-color: lime;
 }
 /* --------------- */
 
@@ -377,7 +378,7 @@ footer{
 .volume_bar .progressing_volume{
     width: 20%;
     height: 5px;
-    background-color: lime;
+    background-color: #c1c1c1;;
     border-radius: 5px;
     position: absolute;
     top: 0;
@@ -396,5 +397,9 @@ footer{
     right: 0;
     transform: translateY(-50%);
 
+}
+
+.volume_bar:hover .progressing_volume{
+    background-color: lime;
 }
 
