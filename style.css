@@ -9,6 +9,25 @@
 }
 
 /* Hover */
+.menu_aside li:hover,
+.menu_aside li:hover i{
+    color: white;
+    cursor: pointer;
+}
+
+.menu_playlist_aside li:hover,
+.menu_playlist_aside li:hover .icon_playlist i{
+    color: white;
+    cursor: pointer;
+}
+
+.menu_profilo_aside .download_app:hover,
+.menu_profilo_aside .download_app:hover i
+{
+    color: white;
+    cursor: pointer;
+}
+
 .brano .nome_brano p:hover{
     color: white;
     text-decoration: underline;
