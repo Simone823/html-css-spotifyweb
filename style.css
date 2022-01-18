@@ -291,5 +291,31 @@ footer{
     width: 120px;
     background-color: rgba(170, 170, 170, 0.4);
     border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.volume_bar .progressing_volume{
+    width: 20%;
+    height: 5px;
+    background-color: lime;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.volume_bar:hover .progressing_volume::after{
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+
 }
 
