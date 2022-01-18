@@ -24,6 +24,8 @@ aside{
     width: 230px;
     height: calc(100% - 88px);
     padding: 15px;
+    display: flex;
+    flex-direction: column;
 }
 
 .logo_aside img{
@@ -32,7 +34,7 @@ aside{
     display: block;
     flex-shrink: 0;
     margin-left: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .menu_aside{
@@ -44,10 +46,11 @@ aside{
 .menu_aside li{
     margin-bottom: 15px;
     color: #aaa;
+    font-size: 14px;
 }
 
 .menu_aside li:last-child{
-    margin-bottom: 35px;
+    margin-bottom: 22px;
 }
 
 .menu_aside li i{
@@ -60,12 +63,13 @@ aside{
     list-style: none;
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
 }
 
 .menu_playlist_aside h1{
     text-transform: uppercase;
     font-size: 18px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .menu_playlist_aside li{
@@ -73,11 +77,12 @@ aside{
     flex-direction: row;
     align-items: center;
     color: #aaa;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
+    font-size: 14px;
 }
 
 .menu_playlist_aside li:last-child{
-    margin-bottom: 110px;
+    margin-bottom: 0;
 }
 
 .icon_playlist i{
@@ -163,6 +168,7 @@ footer{
     align-items: center;
     gap: 20px;
     width: 245px;
+    flex-shrink: 0;
 }
 
 .brano img{
