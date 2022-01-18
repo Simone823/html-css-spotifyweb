@@ -1,0 +1,7 @@
+@media screen and (max-width: 639px) {
+    .brano .icon_like i{
+        display: block;
+        margin-bottom: 2px;
+    }
+    
+}
