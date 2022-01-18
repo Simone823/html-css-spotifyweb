@@ -167,7 +167,7 @@ footer{
 }
 
 .brano{
-    border: 1px dashed orange;
+    /* border: 1px dashed orange; */
     display: flex;
     align-items: center;
     gap: 15px;
@@ -200,7 +200,7 @@ footer{
 }
 
 .riproduzione{
-    border: 1px dashed orange;
+    /* border: 1px dashed orange; */
     width: 597px;
 }
 
@@ -276,7 +276,7 @@ footer{
 /* --------------- */
 
 .volume{
-    border: 1px dashed orange;
+    /* border: 1px dashed orange; */
     width: 230px;
     display: flex;
     flex-direction: row;
