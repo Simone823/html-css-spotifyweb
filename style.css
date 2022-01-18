@@ -25,7 +25,7 @@
 }
 
 .icon_riproduzione li:hover .far.fa-play-circle{
-    font-size: 30px;
+    transform: scale(1.15);
 }
 
 .volume li:hover{
