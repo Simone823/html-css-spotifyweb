@@ -184,7 +184,6 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 30px;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -227,6 +226,8 @@ footer{
 .riproduzione{
     /* border: 1px dashed orange; */
     width: 597px;
+    padding: 10px;
+    flex-grow: 1;
 }
 
 .riproduzione .icon_riproduzione{
@@ -307,6 +308,8 @@ footer{
     flex-direction: row;
     gap: 20px;
     align-items: center;
+    padding: 10px;
+    flex-shrink: 0;
 }
 
 .volume ul{
