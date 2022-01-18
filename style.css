@@ -232,10 +232,45 @@ footer{
 .advanced .time_line{
     max-width: 430px;
     height: 5px;
-    background-color: #aaa;
+    background-color: rgba(170, 170, 170, 0.4);
     border-radius: 5px;
     flex-grow: 1;
+    position: relative;
+    cursor: pointer;
 }
+
+.time_line .progressing{
+    width: 16%;
+    height: 5px;
+    background-color: lime;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    position: relative;
+}
+
+/* Hover After time_line e progressing */
+.time_line:hover .progressing::after{
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+/* --------------- */
+
+/* Hover time_line e progressing */
+.time_line:hover .progressing{
+    width: 100%;
+    transition: linear 15s;
+}
+/* --------------- */
 
 .volume{
     border: 1px dashed orange;
@@ -254,7 +289,7 @@ footer{
 .volume .volume_bar{
     height: 5px;
     width: 120px;
-    background-color: #aaa;
+    background-color: rgba(170, 170, 170, 0.4);
     border-radius: 5px;
 }
 
