@@ -7,6 +7,30 @@
     font-size: 16px;
     color: white;
 }
+
+/* Hover */
+.brano .nome_brano p:hover{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.brano .icon_like i:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.icon_riproduzione li:hover{
+    cursor: pointer;
+}
+
+.icon_riproduzione li:hover .far.fa-play-circle{
+    font-size: 30px;
+}
+
+.volume li:hover{
+    cursor: pointer;
+}
 /* -------------------------------------------- */
 
 body{
