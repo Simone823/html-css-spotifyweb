@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media_queries.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 
     <title>Spotify Web</title>
 </head>
+
 <body>
 
-    <!-- Sidebar sinistra -->
-    <aside>
-        <picture class="logo_aside">
-            <img src="img/logo.svg" alt="">
-        </picture>
+    <div class="main_wrapper">
+        <!-- Sidebar sinistra -->
+        <aside>
+            <picture class="logo_aside">
+                <img src="img/logo.svg" alt="">
+            </picture>
 
             <!-- Menù  -->
             <ul class="menu_aside">
@@ -69,15 +74,33 @@
                     John Doe
                 </div>
             </div>
-    </aside>
+        </aside>
 
-    <!-- Contenuto Parte destra -->
-    <main>
-        <!-- Sezione Upgrade -->
-        <section class="upgrade">
-            <button>Effettua l'upgrade</button>
-        </section>
-    </main>
+        <!-- Main Parte destra -->
+        <main>
+
+            <!-- Sezione Upgrade -->
+            <section class="upgrade">
+                <button>Effettua l'upgrade</button>
+            </section>
+
+            <!-- Sezione Categorie -->
+            <div class="category">
+                <ul>
+                    <li>In Evidenza</li>
+                    <li>Podcast</li>
+                    <li>Classifiche</li>
+                    <li>Generi e mood</li>
+                    <li>Nuove uscite</li>
+                    <li>Scopri</li>
+                </ul>
+            </div>
+
+        </main>
+    </div>
+
+
+
 
     <footer>
         <!-- Brano -->
@@ -99,7 +122,7 @@
         <div class="riproduzione">
             <!-- Icone riproduzione -->
             <ul class="icon_riproduzione">
-                <li>                
+                <li>
                     <i class="fas fa-random"></i>
                 </li>
                 <li>
@@ -146,11 +169,12 @@
             </ul>
             <div class="volume_bar">
                 <div class="progressing_volume">
-                    
+
                 </div>
             </div>
         </div>
     </footer>
-    
+
 </body>
+
 </html>
