@@ -197,6 +197,11 @@ main{
     align-items: center;
     justify-content: flex-end;
     margin-bottom: 15px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    opacity: 0.8;
 }
 
 .upgrade button{
