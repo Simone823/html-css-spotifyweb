@@ -185,6 +185,7 @@ main{
     background-color: #141922;
     flex-grow: 1;
     height: 100%;
+    overflow-x: auto;
 }
 
 .upgrade{
@@ -208,18 +209,89 @@ main{
 }
 
 .category{
+    border: 1px dashed orange;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 25px;
     flex-wrap: wrap;
-    width: 680px;
+    /* width: 680px; */
     margin: 0 auto;
+    margin-bottom: 15px;
 }
 
 .category ul{
     list-style: none;
     display: contents;
+}
+
+.category li{
+    color: #aaa;
+}
+
+.recently_wrapper{
+    border: 2px solid lime;
+    /* width: 100%; */
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.title_playlist h2{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.playlist_wrapper{
+    /* width: 100%; */
+    border: 2px dotted aqua;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card_wrapper{
+    border: 1px dashed red;
+    width: calc((100% / 6) - 20px);
+    flex-shrink: 0;
+}
+
+.img_wrapper{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.img_wrapper img{
+    width: 100%;
+    display: block;
+}
+
+.description_card{
+    text-align: center;
+}
+
+.description_card .title_img{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.description_card .subtitle_img{
+    color: #aaa;
+    font-size: 14px;
+}
+
+.foryou_wrapper{
+    border: 2px solid gold;
+    padding: 10px;
+}
+
+.foryou_wrapper .title_playlist h2{
+    margin-bottom: 5px;
+}
+
+.foryou_wrapper .title_playlist h6{
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 25px;
 }
 
 /* Footer */
