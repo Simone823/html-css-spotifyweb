@@ -282,6 +282,7 @@ main{
 .foryou_wrapper{
     border: 2px solid gold;
     padding: 10px;
+    margin-bottom: 25px;
 }
 
 .foryou_wrapper .title_playlist h2{
@@ -293,6 +294,27 @@ main{
     color: #aaa;
     margin-bottom: 25px;
 }
+
+.popular-artist_wrapper{
+    border: 2px solid crimson;
+    padding: 10px;
+}
+
+.popular-artist_wrapper .title_playlist h2{
+    margin-bottom: 5px;
+}
+
+.popular-artist_wrapper .title_playlist h6{
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 25px;
+}
+
+.popular-artist_wrapper .img_wrapper{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
 
 /* Footer */
 footer{
