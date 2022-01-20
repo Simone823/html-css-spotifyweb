@@ -111,6 +111,10 @@ aside{
     margin-bottom: 20px;
 }
 
+.logo_aside .logo_small{
+    display: none;
+}
+
 .menu_aside{
     list-style: none;
     display: flex;
