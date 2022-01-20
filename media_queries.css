@@ -25,6 +25,14 @@
         padding: 0 0;
     }
 
+   .menu_aside span{
+       display: none;
+   }
+
+   .menu_aside{
+       align-items: center;
+   }
+
     .menu_playlist_aside{
         display: none;
     }
@@ -32,6 +40,18 @@
     .menu_aside{
         flex-grow: 1;
     }
+
+    .menu_profilo_aside .download_app span,
+    .menu_profilo_aside .profilo span{
+        display: none;
+    }
+
+    .menu_profilo_aside{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 
     .menu_profilo_aside hr{
         display: none;
