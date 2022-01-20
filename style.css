@@ -9,7 +9,7 @@
 }
 
 /* Hover */
-.menu_aside li:hover,
+.menu_aside li:hover span,
 .menu_aside li:hover i{
     color: white;
     cursor: pointer;
@@ -21,7 +21,7 @@
     cursor: pointer;
 }
 
-.menu_profilo_aside .download_app:hover,
+.menu_profilo_aside .download_app:hover span,
 .menu_profilo_aside .download_app:hover i
 {
     color: white;
