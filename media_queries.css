@@ -101,6 +101,13 @@
     
 }
 
+@media screen and (max-width: 485px) {
+    .card_wrapper{
+        width: calc(100% - 20px);
+    }
+    
+}
+
 @media screen and (max-height: 195px) {
     .upgrade{
         display: none;
