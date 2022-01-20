@@ -99,6 +99,7 @@ aside{
     padding: 15px;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .logo_aside img{
