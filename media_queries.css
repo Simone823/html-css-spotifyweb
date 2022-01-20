@@ -80,3 +80,10 @@
     }
     
 }
+
+@media screen and (max-height: 195px) {
+    .upgrade{
+        display: none;
+    }
+    
+}
