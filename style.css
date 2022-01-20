@@ -58,6 +58,8 @@
 
 .img_wrapper:hover i{
     display: block;
+    z-index: 1;
+    cursor: pointer;
 }
 
 .img_wrapper:hover::after{
