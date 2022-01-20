@@ -55,6 +55,10 @@
 .volume li:hover{
     cursor: pointer;
 }
+
+.img_wrapper:hover i{
+    display: block;
+}
 /* -------------------------------------------- */
 
 body{
