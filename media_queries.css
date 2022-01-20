@@ -1,7 +1,71 @@
-@media screen and (max-width: 639px) {
-    .brano .icon_like i{
+@media screen and (max-width: 1288px) {
+    .card_wrapper{
+        width: calc((100% / 4) - 20px);
+    }    
+    
+}
+
+@media screen and (max-width: 966px) {
+    .card_wrapper{
+        width: calc((100% / 3) - 20px);
+    }   
+    
+}
+
+@media screen and (max-width: 900px) {
+    .card_wrapper{
+        width: calc((100% / 2) - 20px);
+    }   
+    
+}
+
+@media screen and (max-width: 690px) {
+    aside{
+        width: 50px;
+        padding: 0 0;
+    }
+
+    .menu_playlist_aside{
+        display: none;
+    }
+
+    .menu_aside{
+        flex-grow: 1;
+    }
+
+    .menu_profilo_aside hr{
+        display: none;
+    }
+
+    .logo_aside .logo{
+        display: none;
+    }
+
+    .logo_aside .logo_small{
         display: block;
-        margin-bottom: 2px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .brano picture img{
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .brano .icon_like{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+}
+
+
+@media screen and (max-width: 665px) {
+    .brano .nome_brano p{
+        max-width: 50px;
     }
     
 }
