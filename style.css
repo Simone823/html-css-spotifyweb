@@ -33,6 +33,11 @@
     cursor: pointer;
 }
 
+.category li:hover{
+    cursor: pointer;
+    color: white;
+}
+
 .brano .nome_brano p:hover{
     color: white;
     text-decoration: underline;
