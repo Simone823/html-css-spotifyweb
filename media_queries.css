@@ -20,9 +20,14 @@
 }
 
 @media screen and (max-width: 690px) {
+    .logo_aside img{
+        margin-left: 0;
+    }
+    
     aside{
         width: 50px;
-        padding: 0 0;
+        padding: 8px 0;
+        align-items: center;
     }
 
    .menu_aside span{
@@ -31,6 +36,10 @@
 
    .menu_aside{
        align-items: center;
+   }
+
+   .menu_aside li i{
+       padding-right: 0;
    }
 
     .menu_playlist_aside{
@@ -52,6 +61,13 @@
         align-items: center;
     }
 
+    .menu_profilo_aside .download_app i{
+        padding-right: 0;
+    }
+
+    .menu_profilo_aside .profilo img{
+        margin-right: 0;
+    }
 
     .menu_profilo_aside hr{
         display: none;
