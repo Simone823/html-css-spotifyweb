@@ -122,6 +122,18 @@
         width: calc(100% - 20px);
     }
     
+    .brano .nome_brano{
+        display: none;
+    }
+
+    .volume .volume_bar{
+        display: none;
+    }
+
+    .volume{
+        flex-shrink: 1;
+        gap: 10px;
+    }
 }
 
 @media screen and (max-height: 195px) {
