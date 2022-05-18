@@ -1,6 +1,7 @@
 @media screen and (max-width: 1288px) {
     .card_wrapper{
         width: calc((100% / 4) - 20px);
+        transition: all 280ms linear;
     }    
     
 }
@@ -8,6 +9,7 @@
 @media screen and (max-width: 966px) {
     .card_wrapper{
         width: calc((100% / 3) - 20px);
+        transition: all 280ms linear;
     }   
     
 }
@@ -15,6 +17,7 @@
 @media screen and (max-width: 900px) {
     .card_wrapper{
         width: calc((100% / 2) - 20px);
+        transition: all 280ms linear;
     }   
     
 }
@@ -28,6 +31,7 @@
         width: 50px;
         padding: 8px 0;
         align-items: center;
+        transition: all 280ms linear;
     }
 
    .menu_aside span{
@@ -38,8 +42,8 @@
        align-items: center;
    }
 
-   .menu_aside li i{
-       padding-right: 0;
+   .menu_aside li .icon_aside{
+       margin-right: 0;
    }
 
     .menu_playlist_aside{
@@ -119,7 +123,8 @@
 
 @media screen and (max-width: 485px) {
     .card_wrapper{
-        width: calc(100% - 20px);
+        width: calc(100%);
+        transition: all 280ms linear;
     }
     
     .brano .nome_brano{

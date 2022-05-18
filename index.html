@@ -5,14 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link style css -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Link media queries css -->
     <link rel="stylesheet" href="media_queries.css">
+
+    <!-- Link fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link google font open sans     -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Link favicon -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
 
     <title>Spotify Web</title>
 </head>
@@ -29,16 +40,22 @@
 
             <!-- Menù  -->
             <ul class="menu_aside">
-                <li>
-                    <i class="fas fa-home"></i>
+                <li class="active">
+                    <figure class="icon_aside">
+                        <img src="img/home.svg" alt="">
+                    </figure>
                     <span>Home</span>
                 </li>
                 <li>
-                    <i class="fas fa-search"></i>
+                    <figure class="icon_aside">
+                        <img src="img/search.svg" alt="">
+                    </figure>
                     <span>Cerca</span>
                 </li>
                 <li>
-                    <i class="fas fa-book"></i>
+                    <figure class="icon_aside">
+                        <img src="img/libreria.svg" alt="">
+                    </figure>
                     <span>La tua libreria</span>
                 </li>
             </ul>
@@ -70,9 +87,9 @@
                 <hr>
                 <div class="profilo">
                     <picture>
-                        <img src="img/profile.svg" alt="">
+                        <img src="img/logo_user.svg" alt="">
                     </picture>
-                    <span>John Doe</span>
+                    <span>Simone Daglio</span>
                 </div>
             </div>
         </aside>
@@ -88,7 +105,7 @@
             <!-- Sezione Categorie -->
             <div class="category">
                 <ul>
-                    <li>In Evidenza</li>
+                    <li class="active">In Evidenza</li>
                     <li>Podcast</li>
                     <li>Classifiche</li>
                     <li>Generi e mood</li>
@@ -266,7 +283,7 @@
                         </div>
                         <!-- Descrizione immagine -->
                         <div class="description_card">
-                            <h2 class="title_img">Release Radar</h2>
+                            <h2 class="title_img">Lana Del Ray</h2>
                         </div>
                     </div>
 
@@ -280,7 +297,7 @@
                         <!-- Descrizione immagine -->
                         <div class="description_card">
                             <h2 class="title_img">
-                                Daily Mix 1
+                                Ludovico Einaudi
                             </h2>
                         </div>
                     </div>
